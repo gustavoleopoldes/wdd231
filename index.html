@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+    <meta name="description" content="WDD 231 Course Home Page for Gustavo Leopoldes">
+    <meta name="author" content="Gustavo Leopoldes">
+    <title>WDD 231 | Gustavo Leopoldes</title>
+    
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="scripts/navigations.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
-    <h1>WDD 231 - Gustavo</h1>
+    <header>
+        <img src="images/profile.jpg" alt="Photo of Gustavo Leopoldes">
+        <h1>Gustavo Leopoldes</h1>
+        <button id="menu-btn">☰</button>
+    </header>
+    
+    <nav id="primary-nav">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="final/">Final</a></li>
+            <li><a href="https://github.com/[username]">GitHub Profile</a></li>
+            <li><a href="https://linkedin.com/in/[profile]">LinkedIn</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Home</h2>
+        
+        <div class="cards-container">
+            <section class="card course-work">
+                <h3>Course Work</h3>
+                <div class="card-content">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="card floripa">
+                <h3>Florianópolis, Brazil</h3>
+                <div class="card-content">
+                    <figure>
+                        <img src="images/floripa.jpg" alt="Island of Florianópolis in Brazil">
+                        <figcaption>Florianópolis Beach</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div>
+        
+        <section class="card certificate">
+            <h3>Web and Computer Programming Certificate</h3>
+            <div class="card-content">
+                <div class="filter-buttons">
+                    <button id="all-btn" class="active">All</button>
+                    <button id="cse-btn">CSE</button>
+                    <button id="wdd-btn">WDD</button>
+                </div>
+                
+                <div id="courses-container">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>©<span id="currentyear">2025</span> 🌴 Gustavo Leopoldes 🌴 Brazil 🇧🇷</p>
+        <p id="lastModified">Last Update: 01/01/1970 12:00:00</p>
+    </footer>
 </body>
 </html>
