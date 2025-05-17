@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Aina Surf",
+    "address": "The entire coast, Floripa",
+    "phone": "+55-00-000-0000",
+    "website": "https://blog.ainabikini.com.br/",
+    "image": "logo1.png",
+    "membership": 3,
+    "description": "Female surf group surfing in the south."
+  },
+  {
+    "name": "Monte Pelmo",
+    "address": "Rua Brisamar, 360 – Ingleses do Rio Vermelho, Florianópolis – SC",
+    "phone": "+55-00-000-0000",
+    "website": "https://montepelmo.com.br/",
+    "image": "logo2.jpeg",
+    "membership": 2,
+    "description": "Italian gelatos on the island"
+  },
+  {
+    "name": "Costao do Santinho Resort",
+    "address": "Estrada Vereador Onildo Lemos, 2505 - Praia do Santinho",
+    "phone": "+55-00-000-0000",
+    "website": "https://www.costao.com.br/pt",
+    "image": "logo3.avif",
+    "membership": 1,
+    "description": "Costao do Santinho Resort is the best place to be and quality for your trip."
+  },
+  {
+    "name": "Armazem Rita Maria",
+    "address": "Alameda Annita Hoepcke da Silva, 112 Centro, Florianópolis - SC",
+    "phone": "+55-00-000-0000",
+    "website": "https://www.armazemritamaria.com.br/",
+    "image": "logo1.png",
+    "membership": 2,
+    "description": "Best restaurants to enjoy cuisine from different countries."
+  },
+  {
+    "name": "Costao Golf",
+    "address": "Estrada dario manoel cardoso, 2399 ingleses do rio vermelho",
+    "phone": "+55-00-000-0000",
+    "website": "https://www.costaogolfville.com.br/",
+    "image": "logo2.jpeg",
+    "membership": 3,
+    "description": "Play golf and build your residence at Costao Golf Resident, the best place to live"
+},
+  {
+    "name": "Beiramar Shopping",
+    "address": "Rua Bocaiúva, 2.468 - Centro Florianópois/SC",
+    "phone": "+55-00-000-0000",
+    "website": "https://www.beiramarshopping.com.br/",
+    "image": "logo3.avif",
+    "membership": 1,
+    "description": "Shopping center with international and national brands, the best shopping center in the region"
+  },
+  {
+    "name": "Floripa Airport",
+    "address": "Rota aeroporto, Florianópolis",
+    "phone": "+55-00-000-0000",
+    "website": "https://floripa-airport.com/",
+    "image": "logo1.png",
+    "membership": 2,
+    "description": "Make your trips through Florianópolis airport and exchange your currencies"
+  },
+
+{
+  "name": "Avai Futebol Clube",
+  "address": "Av. Dep. Diomicio Freitas, 1000 - Carianos Florianópolis",
+  "phone": "+55-00-000-0000",
+  "website": "https://avai.com.br/",
+  "image": "logo2.jpeg",
+  "description": "Watch your official football matches at the Aderbal Ramos da Silveira stadium"
+}
+]
