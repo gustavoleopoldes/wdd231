@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the Floripa Chamber of Commerce - connecting businesses and promoting economic growth in Florianópolis.">
+  <meta name="author" content="Gustavo Leopoldes">
+  <title>Home | FLoripa Chamber of Commerce</title>
+  <link rel="icon" href="favicon (1).ico">
+
+  <meta property="og:title" content="Floripa Chamber of Commerce Directory">
+  <meta property="og:description" content="Floripa Chamber of Commerce." />
+  <meta property="og:image" content="https://github.com/gustavoleopoldes/wdd231/blob/main/chamber/images/Chamber.png">
+  <meta property="og:url" content="https://gustavoleopoldes.github.io/wdd231/chamber/directory.html">
+
+  <link rel="icon" href="images/favicon (1).ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+  <header>
+    <img src="images/favicon (1).ico" alt="Floripa Chamber of Commerce Logo" width="34" height="40" loading="lazy">
+    <p>Floripa Chamber of Commerce</p>
+    <button id="menu"  aria-label="menu" ></button>
+  </header>
+  
+  <nav id="animated-menu">
+    <ul class="navigation">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="hero-container">
+      <img src="images/floripa-hero.jpg" alt="Florianópolis city view" class="hero-image">
+      <div class="hero-overlay">
+        <h1>Welcome to Floripa Chamber of Commerce</h1>
+      </div>
+    </div>
+
+    <h1 class="home-title">Home</h1>
+    
+    <div class="home-grid">
+      <section class="events">
+        <h2>Events</h2>
+        <div class="event-card">
+          <h3>Business Networking Breakfast</h3>
+          <p>Date: October 16, 2025</p>
+          <p>Join us for our monthly networking breakfast at Hotel Majestic.</p>
+          <a href="events.html">See all events</a>
+        </div>
+      </section>
+
+      <section class="weather">
+        <h2>Current Weather</h2>
+        <div id="current-weather">
+          <p>Loading weather data...</p>
+        </div>
+      </section>
+
+      <section class="weather-forecast">
+        <h2>Weather Forecast</h2>
+        <div id="weather-forecast">
+          <p>Loading forecast data...</p>
+        </div>
+      </section>
+    </div>
+    
+    <h2 class="spotlights-title">Business Spotlights</h2>
+    <div id="spotlights-container">
+    </div>
+  </main>
+
+  <footer>
+    <p>Contact us: leopoldesgustavo@gmail.com | +55 55 996344305</p>
+    <p>&copy; <span id="year"></span> 🌴Floripa Chamber of Commerce🌴</p>
+    <p>Gustavo Leopoldes | Last modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/script.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlights.js" defer></script>
+</body>
+</html>
