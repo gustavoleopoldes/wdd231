@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join | Floripa Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+</head>
+<body>
+  <header>
+    <img src="images/favicon (1).ico" alt="Floripa Chamber Logo" width="34" height="40" />
+    <p>Floripa Chamber of Commerce</p>
+    <button id="menu" aria-label="menu"></button>
+  </header>
+
+  <nav id="animated-menu">
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li class="active"><a href="join.html">Join</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 class="home-title">Membership Application Form</h1>
+    <div class="form-grid">
+      <form method="get" action="thankyou.html">
+        <label>
+          First Name:
+          <input type="text" name="firstname" required title="First Name" autocomplete="given-name" />
+        </label>
+
+        <label>
+          Last Name:
+          <input type="text" name="lastname" required title="Last Name" autocomplete="family-name" />
+        </label>
+
+        <label>
+          Title:
+          <input type="text" name="orgtitle" title="Organization Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" />
+        </label>
+
+        <label>
+          Email:
+          <input type="email" name="email" required title="Email" autocomplete="email" placeholder="john89@gmail.com" />
+        </label>
+
+        <label>
+          Cell Phone:
+          <input type="tel" name="phone" required title="Cell Phone" autocomplete="tel" />
+        </label>
+
+        <label>
+          Organization:
+          <input type="text" name="organization" required title="Organization" autocomplete="organization" />
+        </label>
+
+        <label>
+          Membership Level:
+          <select name="membership" required title="Select Membership Level">
+            <option value="Free">Free Membership</option>
+            <option value="Bronze">Bronze Membership</option>
+            <option value="Silver">Silver Membership</option>
+            <option value="Gold">Gold Membership</option>
+          </select>
+        </label>
+
+        <label>
+          Organization Description:
+          <textarea name="description" title="Description of your business or organization"></textarea>
+        </label>
+
+        <input type="hidden" name="timestamp" id="timestamp" />
+        <input type="submit" value="Apply for Membership" />
+      </form>
+
+      <section class="membership-cards">
+        <h2>Membership Levels</h2>
+
+        <div class="card np">
+          <h3>Free Membership Level</h3>
+          <a href="#free-modal">Learn More</a>
+        </div>
+
+        <div class="card bronze">
+          <h3>Bronze Membership Level</h3>
+          <a href="#bronze-modal">Learn More</a>
+        </div>
+
+        <div class="card silver">
+          <h3>Silver Membership Level</h3>
+          <a href="#silver-modal">Learn More</a>
+        </div>
+
+        <div class="card gold">
+          <h3>Gold Membership Level</h3>
+          <a href="#gold-modal">Learn More</a>
+        </div>      </section>
+    </div>
+
+    <div id="free-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" data-close="free-modal">&times;</span>
+        <h2>Free Membership Benefits</h2>
+        <ul>
+          <li>Free membership</li>
+          <li>Basic directory listing</li>
+          <li>Access to monthly newsletter</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="bronze-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" data-close="bronze-modal">&times;</span>
+        <h2>Bronze Membership Benefits</h2>
+        <ul>
+          <li>Event discounts</li>
+          <li>Directory listing with logo</li>
+          <li>Social media mentions</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="silver-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" data-close="silver-modal">&times;</span>
+        <h2>Silver Membership Benefits</h2>
+        <ul>
+          <li>All Bronze benefits</li>
+          <li>Spotlight on homepage</li>
+          <li>Free training sessions</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="gold-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" data-close="gold-modal">&times;</span>
+        <h2>Gold Membership Benefits</h2>
+        <ul>
+          <li>All Silver benefits</li>
+          <li>Exclusive networking events</li>
+          <li>Priority advertising space</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Contact us: leopoldesgustavo@gmail.com | +55 55 996344305</p>
+    <p>&copy; <span id="year"></span> 🌴Floripa Chamber of Commerce🌴</p>
+    <p>Gustavo Leopoldes | Last modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/join.js" defer></script>
+
+</body>
+</html>
