@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "Aina Surf",
+      "address": "The entire coast, Floripa",
+      "description": "Female surf group surfing in the south.",
+      "image": "ainasurf.webp"
+    },
+    {
+      "name": "Monte Pelmo",
+      "address": "Rua Brisamar, 360 – Ingleses do Rio Vermelho, Florianópolis – SC",
+      "description": "Italian gelatos on the island",
+      "image": "montepelmo.png"
+    },
+    {
+      "name": "Costao do Santinho Resort",
+      "address": "Estrada Vereador Onildo Lemos, 2505 - Praia do Santinho",
+      "description": "Costao do Santinho Resort is the best place to be and quality for your trip",
+      "image": "costaodosantinho.jpg"
+    },
+    {
+      "name": "Armazem Rita Maria",
+      "address": "Alameda Annita Hoepcke da Silva, 112 Centro, Florianópolis - SC",
+      "description": "Best restaurants to enjoy cuisine from different countries",
+      "image": "ritamaria.png"
+    },
+    {
+      "name": "Costao Golf",
+      "address": "Estrada dario manoel cardoso, 2399 ingleses do rio vermelho",
+      "description": "Play golf and build your residence at Costao Golf Resident, the best place to live",
+      "image": "costaogolf.png"
+    },
+    {
+      "name": "Beiramar Shopping",
+      "address": "Rua Bocaiúva, 2.468 - Centro Florianópois/SC",
+      "description": "Shopping center with international and national brands, the best shopping center in the region",
+      "image": "beiramar.png"
+    },
+    {
+      "name": "Floripa Airport",
+      "address": "Rota aeroporto, Florianópolis",
+      "description": "Make your trips through Florianópolis airport and exchange your currencies",
+      "image": "airport.png"
+    },
+    {
+      "name": "Avai Futebol Clube",
+      "address": "Av. Dep. Diomicio Freitas, 1000 - Carianos Florianópolis",
+      "description": "Watch your official football matches at the Aderbal Ramos da Silveira stadium",
+      "image": "avai.jpeg"
+    }
+  ]
+}
