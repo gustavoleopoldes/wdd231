@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Candy Crush Saga",
+    "category": "Puzzle",
+    "platform": "Mobile",
+    "description": "A sweet match-3 puzzle game for casual fun.",
+    "image": "images/candy_crush_saga.png"
+  },
+  {
+    "id": 2,
+    "title": "Among Us",
+    "category": "Social Deduction",
+    "platform": "PC, Mobile",
+    "description": "Find the impostor in this multiplayer party game.",
+    "image": "images/among_us.png"
+  },
+  {
+    "id": 3,
+    "title": "Stardew Valley",
+    "category": "Simulation",
+    "platform": "PC, Console",
+    "description": "Farm, fish, and build relationships in a charming world.",
+    "image": "images/stardew_valley.png"
+  },
+  {
+    "id": 4,
+    "title": "Minecraft",
+    "category": "Sandbox",
+    "platform": "PC, Console, Mobile",
+    "description": "Create and explore infinite worlds block by block.",
+    "image": "images/minecraft.png"
+  },
+  {
+    "id": 5,
+    "title": "Animal Crossing: New Horizons",
+    "category": "Simulation",
+    "platform": "Console",
+    "description": "Build your island paradise and make friends.",
+    "image": "images/animal_crossing.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Plants vs Zombies",
+    "category": "Tower Defense",
+    "platform": "PC, Mobile",
+    "description": "Defend your home from waves of zombies.",
+    "image": "images/plants_vs_zombies.png"
+  },
+  {
+    "id": 7,
+    "title": "Tetris",
+    "category": "Puzzle",
+    "platform": "Multiple",
+    "description": "Classic block-stacking puzzle game.",
+    "image": "images/tetris.png"
+  },
+  {
+    "id": 8,
+    "title": "Candy Crush Soda Saga",
+    "category": "Puzzle",
+    "platform": "Mobile",
+    "description": "A fizzy twist on the classic match-3 game.",
+    "image": "images/Candy_Crush_Soda_Saga.webp"
+  },
+  {
+    "id": 9,
+    "title": "Clash Royale",
+    "category": "Strategy",
+    "platform": "Mobile",
+    "description": "Real-time strategy battles with collectible cards.",
+    "image": "images/clash_royale.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Solitaire",
+    "category": "Card",
+    "platform": "PC, Mobile",
+    "description": "Classic card game for solo play.",
+    "image": "images/solitaire.webp"
+  },
+  {
+    "id": 11,
+    "title": "Angry Birds",
+    "category": "Puzzle",
+    "platform": "Mobile",
+    "description": "Launch birds to defeat the green pigs.",
+    "image": "images/angry_birds.png"
+  },
+  {
+    "id": 12,
+    "title": "Bejeweled",
+    "category": "Puzzle",
+    "platform": "PC, Mobile",
+    "description": "Match gems in this addictive puzzle game.",
+    "image": "images/bejeweked.jpeg"
+  },
+  {
+    "id": 13,
+    "title": "FarmVille",
+    "category": "Simulation",
+    "platform": "PC, Mobile",
+    "description": "Manage your farm and grow crops.",
+    "image": "images/farmville.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Candy Crush Friends Saga",
+    "category": "Puzzle",
+    "platform": "Mobile",
+    "description": "Join friends in this colorful match-3 game.",
+    "image": "images/candy crush friends.png"
+  },
+  {
+    "id": 15,
+    "title": "Subway Surfers",
+    "category": "Endless Runner",
+    "platform": "Mobile",
+    "description": "Run and dodge obstacles in this fast-paced game.",
+    "image": "images/subway surfers.jpg"
+  }
+]
+

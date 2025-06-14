@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Form Submission - Universe of Games</title>
+  <meta name="description" content="Form submission confirmation page." />
+  <meta name="author" content="Seu Nome" />
+  <meta property="og:title" content="Form Submission - Universe of Games" />
+  <meta property="og:description" content="Form submission confirmation page." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Universe of Games</div>
+    <nav>
+      <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tips.html">Tips & Recommendations</a></li>
+        <li><a href="community.html">Community & Curiosities</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Form Submission Data</h1>
+    <p><strong>Name:</strong> <span id="name"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Message:</strong> <span id="message"></span></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Universe of Games | <a href="attributions.html">Attributions</a></p>
+    <p><a href="https://youtu.be/UMWGGJRE8Rs" target="_blank" rel="noopener">Project Demo Video</a></p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById('name').textContent = params.get('name') || 'N/A';
+    document.getElementById('email').textContent = params.get('email') || 'N/A';
+    document.getElementById('message').textContent = params.get('message') || 'N/A';
+  </script>
+
+  <script src="scripts/menu-toggle.js" defer></script>
+</body>
+</html>

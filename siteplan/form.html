@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Universe of Games</title>
+  <meta name="description" content="Contact form for Universe of Games." />
+  <meta name="author" content="Gustavo Leopoldes" />
+  <meta property="og:title" content="Contact Us - Universe of Games" />
+  <meta property="og:description" content="Contact form for Universe of Games." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Universe of Games</div>
+    <nav>
+      <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tips.html">Tips & Recommendations</a></li>
+        <li><a href="community.html">Community & Curiosities</a></li>
+        <li><a href="form.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <form action="form-action.html" method="GET" novalidate>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required placeholder="Your name" /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required placeholder="you@example.com" /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Universe of Games | <a href="attributions.html">Attributions</a></p>
+    <p><a href="https://youtu.be/UMWGGJRE8Rs" target="_blank" rel="noopener">Project Demo Video</a></p>
+  </footer>
+
+  <script src="scripts/menu-toggle.js" defer></script>
+</body>
+</html>

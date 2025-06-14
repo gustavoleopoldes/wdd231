@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universe of Games - Home</title>
+  <meta name="description" content="Portal for casual gamers with news, popular games, and community." />
+  <meta name="author" content="Gustavo Leopoldes" />
+
+  <meta property="og:title" content="Universe of Games - Home" />
+  <meta property="og:description" content="Portal for casual gamers with news, popular games, and community." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Universe of Games</div>
+    <nav>
+      <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="tips.html">Tips & Recommendations</a></li>
+        <li><a href="community.html">Community & Curiosities</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-label="Popular Games">
+      <h1>Popular Games</h1>
+      <input type="text" id="game-filter" placeholder="Filter games by title or category..." aria-label="Filter games" />
+      <div id="games-list" class="games-list" aria-live="polite" aria-relevant="additions"></div>
+    </section>
+
+    <section aria-label="Featured News">
+      <h2>Featured News</h2>
+      <article>
+        <h3>New Casual Game Released!</h3>
+        <p>Discover the latest casual game that everyone is talking about. Fun and easy to play!</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Universe of Games | <a href="attributions.html">Attributions</a></p>
+    <p><a href="https://youtu.be/UMWGGJRE8Rs" target="_blank" rel="noopener">Project Demo Video</a></p>
+  </footer>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-content">
+      <button id="modal-close" aria-label="Close modal">×</button>
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <p><strong>Category:</strong> <span id="modal-category"></span></p>
+      <p><strong>Platform:</strong> <span id="modal-platform"></span></p>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/main.js"></script>
+  <script src="scripts/menu-toggle.js" defer></script>
+</body>
+</html>
